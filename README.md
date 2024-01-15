@@ -20,6 +20,9 @@ Here are some ideas to get you started:
 Python - 
 It includes coding exercises from the course "Python Essentials - Part 1 (Basics)" - https://edube.org/study/pe1 and coding challenges.
 
+Flying Car and Autonomous Flight Engineer - Nanodegree Program
+https://www.udacity.com/course/flying-car-nanodegree--nd787
+
 <h3 align="center">A passionate C++, Python developer</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=upekesha&label=Profile%20views&color=0e75b6&style=flat" alt="upekesha" /> </p>
