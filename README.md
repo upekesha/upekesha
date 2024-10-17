@@ -16,9 +16,9 @@ Here are some ideas to get you started:
 
 😄 Pronouns: she / her / hers
 
-🌱 I’m currently learning:
+<!-- 🌱 I’m currently learning:
 
-<!-- Python - 
+Python - 
 It includes coding exercises from the course "Python Essentials - Part 1 (Basics)" - https://edube.org/study/pe1 and coding challenges. 
 -->
 
