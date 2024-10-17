@@ -16,15 +16,16 @@ Here are some ideas to get you started:
 
 😄 Pronouns: she / her / hers
 
+👯 I’m looking to collaborate on
+- Open source projects for autonomous vehicles, drones, EVTOL and more
+
 💬 Ask me about
 - Open source project contributions at Grace Hopper Celebration:
 McKinsey - Vizro https://github.com/mckinsey/vizro/issues/736
 
-<!-- 🌱 I’m currently learning:
+<!--🌱 I’m currently practicing Python skills
+Includes coding exercises from the course "Python Essentials - Part 1 (Basics)" - https://edube.org/study/pe1 and coding challenges. -->
 
-Python - 
-It includes coding exercises from the course "Python Essentials - Part 1 (Basics)" - https://edube.org/study/pe1 and coding challenges. 
--->
 
 <!--Flying Car and Autonomous Flight Engineer - Nanodegree Program
 https://www.udacity.com/course/flying-car-nanodegree--nd787-->
