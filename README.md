@@ -18,6 +18,7 @@ Here are some ideas to get you started:
 
 👯 I’m looking to collaborate on
 - Open source projects for autonomous vehicles, drones, EVTOL and more
+- PX4 Autopilot https://github.com/PX4/PX4-Autopilot
 
 💬 Ask me about
 - Open source project contributions at Grace Hopper Celebration:
