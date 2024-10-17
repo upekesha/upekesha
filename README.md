@@ -16,6 +16,10 @@ Here are some ideas to get you started:
 
 😄 Pronouns: she / her / hers
 
+💬 Ask me about
+- Open source project contributions at Grace Hopper Celebration:
+McKinsey - Vizro https://github.com/mckinsey/vizro/issues/736
+
 <!-- 🌱 I’m currently learning:
 
 Python - 
