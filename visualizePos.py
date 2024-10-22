@@ -24,7 +24,7 @@ for t in time_steps:
     plt.figure(figsize=(6, 6))
     plt.scatter(step_data['X'], step_data['Y'], c='blue', s=100)
     
-    # Annotate the drones with their indices
+    # Annotate the drones with their indices at each time step
     for i, row in step_data.iterrows():
         plt.text(row['X'] + 0.1, row['Y'] + 0.1, f'Drone {i}', fontsize=12)
     
