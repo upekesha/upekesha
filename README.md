@@ -18,7 +18,9 @@ Here are some ideas to get you started:
 
 🛸 Detect and Avoid Algorithm Project
 - C++ algorithm (see [main.cpp](main.cpp)) to track x, y movement of 3 drones given velocity and collision distance to maintain
-- Visualization in Python of 3 drones as they move 10 time steps (see [drone simulation](./output_frame/drone_simulation.gif)]
+- Visualization in Python of 3 drones as they move 10 time steps (see
+  ##Simulation Preview
+  ![drone simulation](./output_frame/drone_simulation.gif)
 
 🔭 I’m looking to collaborate on open source projects such as :
 - autonomous vehicles (ground, air or maritime), drones, EVTOL and more
