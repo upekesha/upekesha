@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <fstream>  // For file handling
 #include <vector>
 #include <memory>  // For smart pointers
 
@@ -19,6 +20,10 @@ public:
     void updatePosition() {
         x += vx;
         y += vy;
+    }
+    // Log the drone's position to the output file
+    void logPosition(ofstream& outputFile, int timeStep) const {
+        outputFile << timeStep << "," << x << "," << y << "\n";
     }
 
     // Print the drone's current position and velocity
@@ -55,12 +60,16 @@ void avoidCollision(unique_ptr<Drone>& d1, unique_ptr<Drone>& d2) {
 
 // Simulate multiple drones and apply collision avoidance
 int main() {
+    // Open a file to log the positions
+    ofstream outputFile("drone_positions.csv");
+    outputFile << "TimeStep,X,Y\n";  // CSV header
+
     // Allocate memory for drones using smart pointers
     vector<unique_ptr<Drone>> drones;
 
-    drones.push_back(make_unique<Drone>(50, 50, 5, 5, 2));   // Drone 1
-    drones.push_back(make_unique<Drone>(300, 300, -5, -5, 2)); // Drone 2
-    drones.push_back(make_unique<Drone>(200, 200, -2, -2, 2)); // Drone 3
+    drones.push_back(make_unique<Drone>(500, 500, 10, 5, 5));   // Drone 1
+    drones.push_back(make_unique<Drone>(300, 300, -5, -5, 10)); // Drone 2
+    drones.push_back(make_unique<Drone>(200, 200, 20, 30, 2)); // Drone 3
     
     //Debug initial state of all drones
     cout << "\n --- Input drone positions ---- \n";
@@ -70,9 +79,15 @@ int main() {
 
 
     // Simulate for 10 time steps
+    cout << "\n --- Simulate for 10 time steps ---- \n";
     for (int step = 0; step < 10; step++) {
         cout << "\nTime Step " << step << ":\n";
-        //drone->printStatus();
+        
+        // Log positions for each drone
+        for (auto& drone : drones) {
+            drone->logPosition(outputFile, step);
+        }
+        
         // Update positions and check for collisions
         for (size_t i = 0; i < drones.size(); i++) {
             for (size_t j = i + 1; j < drones.size(); j++) { 
@@ -86,5 +101,9 @@ int main() {
             drone->printStatus();
         }
     }
+
+    // Close the file
+    outputFile.close();
+
     return 0;
 }
