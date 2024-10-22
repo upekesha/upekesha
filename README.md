@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 -->
 
 
-😄 Pronouns: she / her / hers
+😄 Pronouns: she / her / hers / ella
 
 🛸 Detect and Avoid Algorithm Project
 - Simple algorithm to detect nearby drones and avoid
