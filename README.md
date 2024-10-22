@@ -28,7 +28,7 @@ Here are some ideas to get you started:
 - PX4 Autopilot https://github.com/PX4/PX4-Autopilot
 
 💬 Ask me about
-- Background in C++ programming, flight controls software, hardware in the loop, software in the loop testing, flight test data analysis
+- Background in programming, flight controls software, hardware in the loop, software in the loop testing, flight test data analysis
 - Open source project contributions at Grace Hopper Celebration:
 McKinsey - Vizro https://github.com/mckinsey/vizro/issues/736
 
