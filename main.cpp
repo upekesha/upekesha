@@ -8,8 +8,8 @@ using namespace std;
 // Drone class to represent each drone's position, velocity, and radius
 class Drone {
 public:
-    double x, y;    // Position
-    double vx, vy;  // Velocity
+    double x, y;    // Position ft - assume level flight. No altitude change.
+    double vx, vy;  // Velocity kts
     double radius;  // Collision radius
 
     Drone(double x, double y, double vx, double vy, double radius)
@@ -23,7 +23,7 @@ public:
 
     // Print the drone's current position and velocity
     void printStatus() const {
-        cout << "Drone at (" << x << ", " << y << "), Velocity: (" << vx << ", " << vy << ")\n";
+        cout << "Drone at (" << x << " ft, " << y << " ft), Velocity: (" << vx << ", " << vy << " kts)\n";
     }
 };
 
@@ -58,17 +58,24 @@ int main() {
     // Allocate memory for drones using smart pointers
     vector<unique_ptr<Drone>> drones;
 
-    drones.push_back(make_unique<Drone>(0, 0, 1, 1, 2));   // Drone 1
-    drones.push_back(make_unique<Drone>(5, 5, -1, -1, 2)); // Drone 2
-    drones.push_back(make_unique<Drone>(10, 10, -0.5, -0.5, 2)); // Drone 3
+    drones.push_back(make_unique<Drone>(50, 50, 5, 5, 2));   // Drone 1
+    drones.push_back(make_unique<Drone>(300, 300, -5, -5, 2)); // Drone 2
+    drones.push_back(make_unique<Drone>(200, 200, -2, -2, 2)); // Drone 3
+    
+    //Debug initial state of all drones
+    cout << "\n --- Input drone positions ---- \n";
+    for (auto& drone : drones) {
+            drone->printStatus();
+    }
+
 
     // Simulate for 10 time steps
     for (int step = 0; step < 10; step++) {
         cout << "\nTime Step " << step << ":\n";
-
+        //drone->printStatus();
         // Update positions and check for collisions
         for (size_t i = 0; i < drones.size(); i++) {
-            for (size_t j = i + 1; j < drones.size(); j++) {
+            for (size_t j = i + 1; j < drones.size(); j++) { 
                 avoidCollision(drones[i], drones[j]);
             }
         }
@@ -79,6 +86,5 @@ int main() {
             drone->printStatus();
         }
     }
-
     return 0;
 }
