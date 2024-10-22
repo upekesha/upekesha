@@ -29,10 +29,11 @@ Here are some ideas to get you started:
 
 💬 Ask me about
 - Background in programming, flight controls software, hardware in the loop, software in the loop testing, flight test data analysis
+<!--
 - Open source project contributions at Grace Hopper Celebration:
 McKinsey - Vizro https://github.com/mckinsey/vizro/issues/736
 
-<!--🌱 I’m currently practicing Python skills
+🌱 I’m currently practicing Python skills
 Includes coding exercises from the course "Python Essentials - Part 1 (Basics)" - https://edube.org/study/pe1 and coding challenges. -->
 
 
