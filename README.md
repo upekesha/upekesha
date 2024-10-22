@@ -11,12 +11,13 @@ Here are some ideas to get you started:
 - 💬 Ask me about ...
 - 📫 How to reach me: ...
 - ⚡ Fun fact: ...
+🛸 
 -->
 
 
 😄 Pronouns: she / her / hers / ella
 
-🛸 Detect and Avoid Algorithm Project
+🤖 Detect and Avoid Algorithm Project
 - C++ algorithm (see [main.cpp](main.cpp)) to track x, y movement of 3 drones given velocity and collision distance to maintain
 - Visualization in Python of 3 drones as they move 10 time steps
 - ##Simulation Preview
