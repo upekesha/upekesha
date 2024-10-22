@@ -30,7 +30,7 @@ for t in time_steps:
     
     plt.xlim(-10, 1000)
     plt.ylim(-10, 1000)
-    plt.title(f'Time Step {t}')
+    plt.title(f'Drone Simulation - Time Step {t}')
     plt.xlabel('X Position')
     plt.ylabel('Y Position')
 
