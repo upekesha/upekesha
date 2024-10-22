@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 😄 Pronouns: she / her / hers / ella
 
 🛸 Detect and Avoid Algorithm Project
-- Simple algorithm to detect nearby drones and avoid
+- Simple algorithm (see <main.cpp>) to detect nearby drones and avoid
 
 🔭 I’m looking to collaborate on open source projects such as :
 - autonomous vehicles (ground, air or maritime), drones, EVTOL and more
