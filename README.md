@@ -19,11 +19,12 @@ Here are some ideas to get you started:
 🛸 Detect and Avoid Algorithm Project
 - Simple algorithm to detect nearby drones and avoid
 
-🔭 I’m looking to collaborate on
-- Open source projects for autonomous vehicles, drones, EVTOL and more
+🔭 I’m looking to collaborate on open source projects such as :
+- autonomous vehicles (ground, air or maritime), drones, EVTOL and more
 - PX4 Autopilot https://github.com/PX4/PX4-Autopilot
 
 💬 Ask me about
+- Background in flight controls software, hardware in the loop, software in the loop testing, flight test data analysis
 - Open source project contributions at Grace Hopper Celebration:
 McKinsey - Vizro https://github.com/mckinsey/vizro/issues/736
 
