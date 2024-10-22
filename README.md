@@ -20,7 +20,8 @@ Here are some ideas to get you started:
 - C++ algorithm (see [main.cpp](main.cpp)) to track x, y movement of 3 drones given velocity and collision distance to maintain
 - Visualization in Python of 3 drones as they move 10 time steps
 - ##Simulation Preview
-- ![drone simulation](./output_frames/drone_simulation.gif)
+<!-- ![drone simulation](./output_frames/drone_simulation.gif)-->
+<img src="./output_frames/drone_simulation.gif" alt="Drone Simulation" width="400"/>
 
 🔭 I’m looking to collaborate on open source projects such as :
 - autonomous vehicles (ground, air or maritime), drones, EVTOL and more
